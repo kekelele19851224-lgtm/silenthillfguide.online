@@ -232,8 +232,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     puzzleCards.forEach(card => {
         card.addEventListener('click', function() {
-            const puzzleType = this.getAttribute('onclick').match(/'([^']+)'/)[1];
-            trackPuzzleView(puzzleType);
+            const onclickValue = this.getAttribute('onclick');
+            if (onclickValue && onclickValue.includes('showPuzzle')) {
+                const match = onclickValue.match(/'([^']+)'/);
+                if (match) {
+                    const puzzleType = match[1];
+                    trackPuzzleView(puzzleType);
+                }
+            }
+            // For location.href clicks, we don't need to track puzzle type
         });
     });
 });
