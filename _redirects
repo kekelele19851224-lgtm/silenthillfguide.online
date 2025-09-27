@@ -1,0 +1,54 @@
+# Silent Hill f Puzzle Guide - URL Redirects Configuration
+# This file handles URL redirections to ensure clean, SEO-friendly URLs
+
+# Main puzzle redirects - redirect common search terms to main page
+/shrine-vault                   /#puzzles    302
+/shrine-puzzle                  /#puzzles    302
+/vault-puzzle                   /#puzzles    302
+/scarecrow-field               /#puzzles    302
+/scarecrow-puzzle              /#puzzles    302
+/field-puzzle                  /#puzzles    302
+/school-locker                 /#puzzles    302
+/locker-codes                  /#puzzles    302
+/student-lockers               /#puzzles    302
+
+# Individual puzzle solution redirects
+/shrine-vault-solution         /#puzzles    302
+/scarecrow-field-solution      /#puzzles    302
+/school-locker-solution        /#puzzles    302
+
+# Character-specific locker redirects
+/asakura-ayumi                 /#puzzles    302
+/aoi-takeshi                   /#puzzles    302
+/tsuchiya-taiko                /#puzzles    302
+/suga-yosie                    /#puzzles    302
+
+# Game difficulty redirects
+/story-mode                    /#puzzles    302
+/hard-mode                     /#puzzles    302
+/lost-in-fog                   /#puzzles    302
+
+# Common misspellings and variations
+/silent-hill-f                 /           301
+/silenthillf                   /           301
+/silent-hill-f-guide           /           301
+/puzzle-guide                  /           301
+/walkthrough                   /#puzzles    302
+/solutions                     /#puzzles    302
+/codes                         /#puzzles    302
+
+# Legacy URL support (if migrating from another domain)
+/puzzle/*                      /#puzzles    302
+/guide/*                       /#puzzles    302
+/solution/*                    /#puzzles    302
+
+# Handle common file extensions that shouldn't exist
+/*.php                         /           301
+/*.asp                         /           301
+/*.aspx                        /           301
+
+# Force HTTPS (if using custom domain)
+http://your-domain.com/*       https://your-domain.com/:splat  301!
+
+# Default 404 redirect
+/*                             /           404
