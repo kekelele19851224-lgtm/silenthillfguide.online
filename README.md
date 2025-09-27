@@ -1,22 +1,22 @@
 # Silent Hill f Puzzle Guide
 
-A comprehensive, interactive guide for solving all the major puzzles in Silent Hill f. This website provides step-by-step solutions for the [Shrine Vault Puzzle](https://your-domain.com/#shrine-vault-puzzle), [Scarecrow Field Puzzle](https://your-domain.com/#scarecrow-field-puzzle), and [School Locker Codes](https://your-domain.com/#school-locker-codes) across all difficulty levels.
+A comprehensive, interactive guide for solving all the major puzzles in Silent Hill f. This website provides step-by-step solutions for the [Shrine Vault Puzzle](https://silenthillfguide.online/#shrine-vault-puzzle), [Scarecrow Field Puzzle](https://silenthillfguide.online/#scarecrow-field-puzzle), and [School Locker Codes](https://silenthillfguide.online/#school-locker-codes) across all difficulty levels.
 
 ## 🎮 Featured Puzzle Solutions
 
-### [Shrine Vault Puzzle Solution](https://your-domain.com/#puzzles)
+### [Shrine Vault Puzzle Solution](https://silenthillfguide.online/#puzzles)
 Complete walkthrough for the ancient shrine vault puzzle featuring:
 - **Story Difficulty**: Serpent, Turtle, and Crane symbols
 - **Hard Difficulty**: Tree, Kudzu, and Lightning symbols  
 - **Lost in the Fog**: Dynamic yokai-based solutions
 
-### [Scarecrow Field Puzzle Guide](https://your-domain.com/#puzzles)
+### [Scarecrow Field Puzzle Guide](https://silenthillfguide.online/#puzzles)
 Navigate the haunting scarecrow field with our detailed guide:
 - **Story Mode**: Identify the scarecrow with a sickle
 - **Hard Mode**: Find the scarecrow with a sad expression
 - **Lost in the Fog**: Locate the scarecrow with a false smile
 
-### [School Locker Codes](https://your-domain.com/#puzzles)
+### [School Locker Codes](https://silenthillfguide.online/#puzzles)
 Access all student lockers with verified combination codes:
 - **Asakura Ayumi**: 273 (Story) / 892 (Hard) / 156 (Lost in Fog)
 - **Aoi Takeshi**: 401 (all difficulties)
@@ -197,7 +197,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 📞 Contact & Support
 
-For questions about [Silent Hill f puzzle solutions](https://your-domain.com/#puzzles) or website issues:
+For questions about [Silent Hill f puzzle solutions](https://silenthillfguide.online/#puzzles) or website issues:
 - Create an issue in this repository
 - Email: support@your-domain.com
 - Twitter: [@YourGameGuides](https://twitter.com/yourgameguides)
