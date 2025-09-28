@@ -448,6 +448,10 @@ body::before {
     transition: all 0.3s ease;
 }
 
+.card-link:hover {
+    text-decoration: underline;
+}
+
 .puzzle-card:hover .card-link {
     color: #fff;
     text-shadow: 0 0 10px rgba(255, 107, 107, 0.8);
@@ -1124,4 +1128,11 @@ footer {
     .puzzle-card {
         border: 2px solid #fff;
     }
+}
+
+/* 仅为保证 <a class="puzzle-card"> 外观与原来一致 */
+a.puzzle-card {
+    display: block;               /* 链接当作块级卡片 */
+    text-decoration: none;        /* 去掉默认下划线 */
+    color: inherit;               /* 继承颜色 */
 }
